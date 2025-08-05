@@ -7,15 +7,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-gray-100 min-h-screen">
-
     <!-- Navbar -->
     <header class="bg-white shadow">
       <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <h1 class="text-2xl font-bold text-gray-800">#Hashtag</h1>
-        <nav class="space-x-4">
+        <nav class="space-x-4 flex items-center">
           <a href="index.html" class="text-gray-600 hover:text-black">Home</a>
           <a href="dashboard.html" class="text-gray-600 hover:text-black">Dashboard</a>
-          <a href="support.html" class="text-gray-600 hover:text-black">Support</a>
+          <a href="#" class="text-gray-600 hover:text-black">Support</a>
+          <a href="register.html" class="text-blue-600 font-semibold hover:underline">Register</a>
+          <a href="login.html" class="text-blue-600 font-semibold hover:underline">Login</a>
         </nav>
       </div>
     </header>
@@ -24,7 +25,11 @@
     <section class="text-center py-16 bg-white shadow-inner">
       <h2 class="text-4xl font-bold text-gray-800 mb-4">Create & Manage Your Digital Menu</h2>
       <p class="text-lg text-gray-600 mb-6">Upload images, videos, and manage your items effortlessly.</p>
-      <button class="px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800">Get Started</button>
+      <a href="register.html">
+        <button class="px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800">
+          Get Started
+        </button>
+      </a>
     </section>
 
     <!-- Features -->
@@ -47,6 +52,5 @@
     <footer class="bg-gray-200 text-center py-4">
       <p class="text-gray-600">© 2025 Hashtag. All rights reserved.</p>
     </footer>
-
   </body>
 </html>
